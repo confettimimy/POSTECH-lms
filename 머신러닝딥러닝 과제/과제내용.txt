@@ -1,0 +1,17 @@
+[머신러닝 실습] 과제 2
+
+안녕하세요.
+이번 주에 배웠던 내용들을 토대로 MNIST / CIFAR10 데이터셋을 여러분들의 모델로 학습시켜 보는 과제를 하도록 하겠습니다.
+
+평가 기준은 두 데이터셋의 test_accuracy이며, 평가 기준은 다음과 같습니다.
+
+0. 제출 파일은 .ipynb 파일, 즉 jupyter notebook 파일입니다.
+1. 제출 코드 안에 print(test_accuracy)을 하는 코드를 작성하여, test_accuracy를 출력해주세요.
+  (train accuracy를 제출하실 경우 0점 처리입니다.)
+
+2. MNIST : 100점 / CIFAR10 : 100점 기준으로 200점 만점입니다.
+  (MNIST의 경우, test_accuracy가 99%을 넘어가면 만점, CIFAR10의 경우, 90%을 넘어가면 만점입니다.)
+
+3. 모델의 layer 개수, hidden node의 개수에는 제한이 없습니다.
+4. activation function 또한 제한이 없으나, softmax함수의 경우에는 맨 끝단에만 사용해주세요.
+5. dropout, batch normalization의 경우 선택 사항입니다. 모델의 test_accuracy를 높이지 못한다면 굳이 사용하실 필요는 없습니다.
